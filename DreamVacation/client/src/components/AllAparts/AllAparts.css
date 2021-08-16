@@ -1,0 +1,12 @@
+
+.ap-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.not-found {
+    margin-top: 1%;
+    margin-right: 45%;
+    -webkit-text-stroke: 0.5px white;
+}

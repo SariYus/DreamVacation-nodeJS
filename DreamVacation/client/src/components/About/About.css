@@ -1,0 +1,42 @@
+
+body{
+    background-color: coral;
+}
+.card{
+    width: 30%;
+    margin-left:1%;
+    margin-right:1%;
+}
+.allcard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.about-logo-img {
+    height: 150px;
+    width: auto;
+    margin: 3%;
+    padding-right: 0 !important;
+}
+
+.policy-link {
+    color: black;
+}
+
+.policy-link:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.email {
+    text-decoration: underline;
+}
+
+.about-div {
+    border: 2px solid black;
+    width: 45%;
+    margin: auto;
+    margin-top: 2%;
+    padding: 1%;
+}

@@ -1,0 +1,73 @@
+input {
+    align-self: start;
+    align-items: center;
+}
+form {
+    align-items: center
+}
+.button {
+    background-color: rgb(248, 226, 179);
+    border: 1px solid rgb(26, 133, 163);
+    padding-top: 0.4%;
+    padding-bottom: 0.4%;
+    padding-left: 0.9%;
+    padding-right: 0.9%;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    font-weight: 500;
+    align-items: center;
+}
+
+.file-input-button{
+    display: none;
+}
+
+.add-div {
+    margin-top: 3%;
+}
+
+.img-button {
+    background-color: rgb(248, 226, 179);
+    border: 2px solid rgb(26, 133, 163);
+    padding-top: 0.4%;
+    padding-bottom: 0.4%;
+    padding-right: 0.7%;
+    padding-left: 0.7%;
+    margin-top: 1%;
+    border-radius: 4px;
+    color: gray;
+}
+
+.file-input {
+    width: 250px !important;
+    height: 70px;
+    align-self: start;
+    align-items: center;
+    width: 30%;
+    padding: 5px;
+    margin: 20px ;
+    margin-left: 0.2%;
+    display: inline-block;
+    border: 2px solid rgb(26, 133, 163);
+    border-radius: 4px;
+    background-color: rgb(248, 226, 179);
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+
+.choose-img {
+    height: 50px;
+    width: 80px;
+    margin: 4px;
+}
+
+.custom-file-upload {
+    margin: 15px;
+    color: gray;
+}

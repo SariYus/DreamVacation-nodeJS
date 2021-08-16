@@ -1,0 +1,52 @@
+
+.all-tips {
+    background-color: rgba(248, 226, 179, 0.781);
+    padding: 3%;
+    padding-bottom: 2%;
+    min-width: 40%;
+}
+
+.tip-page {
+    margin: 3%;
+    text-align: start;
+
+}
+
+.tip-input {
+    width: 50%;
+    border: none;
+}
+
+.save-tip {
+    background-color: rgb(248, 226, 179);
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin: 1%;
+    border: none;
+    border-radius: 7%;
+    height: 50px;
+}
+
+.tips-title {
+    background-color: rgb(251, 234, 200);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1.5%;
+    padding-top: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.tips-footer {
+    background-color: rgba(128, 156, 167, 0.774);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    -webkit-text-stroke: 0.1px black;
+    color: rgb(253, 225, 174);
+}

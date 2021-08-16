@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #f797073f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-image: url("./assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-attachment: fixed;
+  justify-content: right;
+  align-items: flex-start;
+  background-size: cover;
+  direction: rtl;
+}
+
+.bg {
+  height: 5px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(128, 156, 167);
+}
+
+li {
+  float: left;
+  margin-left: 1%;
+}
+
+li a {
+  display: block;
+  color: rgb(253, 225, 174);
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 125%;
+ 
+}
+
+li a:hover {
+  background-color: rgb(253, 225, 174);
+  color: rgb(128, 156, 167);
+}
+
+li a:active {
+background-color: rgb(253, 225, 174);
+}
+
+.container1 {
+  direction: rtl;
+  text-align: right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 490px;
+  background-color: rgba(255, 255, 255, 0.623);
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2) !important;
+  border-radius: 5px;
+  padding: 30px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.container1 h4 {
+  text-align: center;
+}
+
+.logo-img {
+  height: 50px;
+  width: auto;
+    margin: 10px;
+
+}
+
+.logo-li {
+  margin-right: 0.5%;
+  float: right;
+}

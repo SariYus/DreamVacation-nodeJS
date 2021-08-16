@@ -1,0 +1,59 @@
+
+div.apart {
+    margin: 30px;
+    border: 1px solid rgb(26, 133, 163);
+    width: 200px;
+    height: 230px;
+    background-color: rgb(248, 226, 179);
+    color: black;
+}
+
+div.apart:hover {
+    border: 2px solid #777;
+}
+
+div.apart img {
+    width: 100%;
+    height: 150px;
+    padding: 0px;
+    border: 10px white;
+    outline: 1px black;
+}
+
+p.basic {
+    margin-top: 7px;
+    margin-bottom: 14px;
+    padding: 5px;
+    text-align: center;
+}
+
+.detailed {
+    padding: 15px;
+    text-align: center;
+}
+
+.det-window {
+    background-color: rgb(252, 239, 209);
+}
+
+.modal-header, .modal-footer {
+    background-color: rgb(152, 182, 194);
+}
+
+.modal-header {
+    text-align: left;
+    direction: rtl;
+    float: left;
+}
+
+.modal-title {
+    text-align: left;
+    direction: rtl;
+    float: left;
+}
+
+.close-button {
+    background-color: rgb(26, 133, 163);
+    color: rgb(252, 239, 209);
+    border: 0px;
+}

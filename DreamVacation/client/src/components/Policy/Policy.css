@@ -1,0 +1,26 @@
+
+.policy-div {
+    background-color: rgb(128, 156, 167);
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 5%;
+    border: 2px solid rgb(128, 156, 167);
+    border-radius: 2%;
+    color: rgb(253, 225, 174);
+    -webkit-text-stroke: 0.15px black;
+    font-weight: 500;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.last-line {
+    border-bottom: 1px solid rgb(253, 225, 174);
+    padding-bottom: 5%;
+}
+
+.first-line {
+    padding-top: 5%;
+    border-top: 1px solid rgb(253, 225, 174);
+    margin-top: 1rem;
+}
